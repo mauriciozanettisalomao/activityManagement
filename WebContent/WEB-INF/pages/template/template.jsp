@@ -22,30 +22,50 @@
 <script
 	src="${pageContext.request.contextPath}/static/script/scripts.js"></script>		
 
-<div class="navbar-top header">
-	<tiles:insertAttribute name="header" />
+<div class="content">
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="navbar-top header">
+				<tiles:insertAttribute name="header" />
+			</div>
+
+		</div>	
+	</div>
+
+	<div class="row-height">
+		<div class="col-xs-12">
+			<div class="nav nav-tabs">
+				<tiles:insertAttribute name="menu" />
+			</div>
+		</div>
+	</div>
+		
+	<div class="row-height">
+		<div class="col-xs-12">
+			<div class="message">
+				<tiles:insertAttribute name="message" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row-height">
+		<div class="col-xs-12">
+			<div class="body">
+				<tiles:insertAttribute name="body" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel-footer footer">
+				<tiles:insertAttribute name="footer" />
+			</div>
+		</div>
+	</div>
+
 </div>
 
 
-<div class="menuBody">
-	
-	<div class="nav nav-tabs">
-		<tiles:insertAttribute name="menu" />
-	</div>
-	</br>
-
-	<div class="message">
-		<tiles:insertAttribute name="message" />
-	</div>
-
-	<div class="body">
-		<tiles:insertAttribute name="body" />
-	</div>
-
-
-</div>
-
-<div class="panel-footer footer">
-	<tiles:insertAttribute name="footer" />
-</div>
 </html>

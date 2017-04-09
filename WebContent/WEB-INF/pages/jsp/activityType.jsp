@@ -26,7 +26,7 @@ function goPage(page) {
 	function InsertForm() {
 		var par = $(this).parent().parent();
 		var idActivityTypeGroup = $('select[name="descriptionActivityTypeGroup"]').val();
-		var dsActivityType = par.children("td:nth-child(2)");
+		var dsActivityType = par.children("td:nth-child(3)");
 		InsertUpdate(null, dsActivityType.children("input[type=text]").val(),idActivityTypeGroup);
 		$(".newRow").delay(1500).fadeToggle();
 	};

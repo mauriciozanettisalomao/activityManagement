@@ -55,7 +55,6 @@ public class ActivityManagementController {
 		}	
 		
 		List<ActivityTypeGroup> listActivityTypeGroup = new ArrayList<>();
-
 		listActivityTypeGroup = activityTypeGroupService.getAllActivityTypeGroup();	
 		
 		model.addAttribute("listActivityTypeGroup", listActivityTypeGroup);				
