@@ -10,7 +10,7 @@
 
 
 	<context:annotation-config></context:annotation-config>
-	<context:component-scan base-package="br.com.activitymanagement.dao"></context:component-scan>
+	<context:component-scan base-package="br.com.activitymanagement.model.dao"></context:component-scan>
 
 
 	<jee:jndi-lookup jndi-name="jdbc/mysql" id="dataSource"
@@ -29,7 +29,8 @@
 		
 		<property name="packagesToScan">
 			<list>
-				<value>br.com.activitymanagement.dao</value>
+				<value>br.com.activitymanagement.model.dao</value>
+				<value>br.com.activitymanagement.model.entity</value>
 			</list>
 		</property>
 	</bean>

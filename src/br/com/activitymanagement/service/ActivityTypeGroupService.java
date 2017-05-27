@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.activitymanagement.dao.ActivityTypeGroup;
-import br.com.activitymanagement.dao.ActivityTypeGroupDao;
+import br.com.activitymanagement.model.dao.hibernate.ActivityTypeGroupDao;
+import br.com.activitymanagement.model.entity.ActivityTypeGroup;
 
 @Service("activityTypeGroupService")
 @Transactional

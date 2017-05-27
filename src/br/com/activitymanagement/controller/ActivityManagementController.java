@@ -10,8 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import br.com.activitymanagement.dao.ActivityType;
-import br.com.activitymanagement.dao.ActivityTypeGroup;
+import br.com.activitymanagement.model.entity.ActivityType;
+import br.com.activitymanagement.model.entity.ActivityTypeGroup;
 import br.com.activitymanagement.service.ActivityTypeGroupService;
 import br.com.activitymanagement.service.ActivityTypeService;
 

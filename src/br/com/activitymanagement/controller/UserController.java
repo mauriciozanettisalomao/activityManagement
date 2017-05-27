@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import br.com.activitymanagement.dao.User;
+import br.com.activitymanagement.model.entity.User;
 import br.com.activitymanagement.service.UserService;
 
 @Controller
